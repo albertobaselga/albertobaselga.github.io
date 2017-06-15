@@ -8,8 +8,8 @@
                 <h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}Full Stack Developer{% endif %}</h3>
             </div><!--//profile-container-->
 
-            <div class="contact-container container-block">
-                <ul class="list-unstyled contact-list">
+            <div class="contact-container container-block" style="font-size:11px">
+                <ul class="list-unstyled contact-list" style="font-size:11px">
 
                    {% if site.email %}
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
@@ -40,6 +40,7 @@
                     {% else %}
                     <li class="github"><i class="fa fa-github"></i><a href="http://github.com/sharu725" target="_blank">github.com/sharu725</a></li>
                     {% endif %}
+
 
                 </ul>
             </div><!--//contact-container-->
