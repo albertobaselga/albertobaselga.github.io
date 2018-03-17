@@ -1,7 +1,7 @@
 
 title: My Resume
-url: 'http://albertobaselga.github.io'
-baseurl: 'albertobaselga.github.io' #change it according to your repository name
+url: 'http://www.albertobaselga.com'
+baseurl: 'www.albertobaselga.com' #change it according to your repository name
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
@@ -20,7 +20,7 @@ pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and pro
 #sidebar links
 email: alberto.baselga@gmail.com
 phone: 699 697 868
-website: albertobaselga.github.io #do not add http://
+website: www.albertobaselga.com #do not add http://
 linkedin: albertobaselga
 github: albertobaselga
 twitter: ''
