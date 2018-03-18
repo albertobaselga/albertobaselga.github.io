@@ -196,9 +196,6 @@ p {
 .main-wrapper .section {
   margin-bottom: 60px;
 }
-.main-wrapper .summary-section {
-  background-image: url(/assets/images/devops_blue.png);
-}
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
 }
@@ -251,7 +248,7 @@ p {
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #6c92a3;
+  background: #2196f3;
 }
 .footer {
   padding: 30px;
