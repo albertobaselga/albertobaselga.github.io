@@ -197,7 +197,7 @@ p {
   margin-bottom: 60px;
 }
 .main-wrapper .summary-section {
-  background: #2e4049;
+  background-image: url(/assets/images/devops_blue.png);
 }
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
