@@ -97,7 +97,7 @@ p {
         }
     }
     .container-block {
-        padding: 30px;
+        padding: 25px;
     }
     .container-block-title {
         text-transform: uppercase;
@@ -153,6 +153,9 @@ p {
             &:last-child {
                 margin-bottom: 0;
             }
+        .lang-desc {
+            color: rgba(256, 256, 256, 0.6);
+        }
         }
     }
 }
