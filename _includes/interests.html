@@ -3,7 +3,7 @@
 <div class="interests-container container-block">
 
   <h2 class="container-block-title">
-    Interests
+    Other Hobbies
   </h2>
 
   <ul class="list-unstyled interests-list">
@@ -12,7 +12,10 @@
       {% if interest.link %}
       <li><a href="{{ interest.link }}">{{ interest.item }}</a> - <span class="lang-desc">{{ interest.desc }}</span></li>
       {% else %}
-      <li>{{ interest.item }} - <span class="lang-desc">{{ interest.desc }}</span></li>
+      <li>
+        {{ interest.item }}
+        <span class="lang-desc">{{ interest.desc }}</span>
+      </li>
       {% endif %}
 
     {% endfor %}
