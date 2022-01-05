@@ -1,58 +1,33 @@
-<!-- Use icons from fontawesome when you are adding new item in the contact list  -->
+{% assign sidebar = site.data.data.sidebar %}
+<div class="sidebar-wrapper">
 
+  <div class="profile-container">
 
-     <div class="sidebar-wrapper">
-            <div class="profile-container">
-                <img class="profile-img" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}profile.png{% endif %}" alt="profile picture" />
-                <h1 class="name">{% if site.name %}{{site.name}}{% else %}Alan Doe{% endif %}</h1>
-                <h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}Full Stack Developer{% endif %}</h3>
-            </div><!--//profile-container-->
+    {% if sidebar.name %}
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    {% endif %}
 
-            <div class="contact-container container-block" style="font-size:11px">
-                <ul class="list-unstyled contact-list" style="font-size:11px">
+    {% if sidebar.name %}
+    <h1 class="name">{{ sidebar.name }}</h1>
+    {% endif %}
 
-                   {% if site.email %}
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
-                    {% else %}
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:alan.doe@website.com">alan.doe@website.com</a></li>
-                    {% endif %}
+    {% if sidebar.tagline %}
+    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    {% endif %}
 
-                    <!-- {% if site.phone %}
-                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
-                    {% else %}
-                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:012 345 6789">012 345 6789</a></li>
-                    {% endif %} -->
+  </div><!--//profile-container-->
 
-                    {% if site.website %}
-                    <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
-                    {% else %}
-                    <li class="website"><i class="fa fa-globe"></i><a href="http://blog.webjeda.com" target="_blank">blog.webjeda.com</a></li>
-                    {% endif %}
+  {% include contact.html %}
 
-                    {% if site.linkedin %}
-                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank">linkedin.com/in/{{site.linkedin}}</a></li>
-                    {% else %}
-                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/sharath-kumar-87669956" target="_blank">linkedin.com/in/sharathdt</a></li>
-                    {% endif %}
+  {% if sidebar.education %}
+    {% include education.html %}
+  {% endif %}
 
-                    {% if site.github %}
-                    <li class="github"><i class="fa fa-github"></i><a href="http://github.com/{{site.github}}" target="_blank">github.com/{{site.github}}</a></li>
-                    {% else %}
-                    <li class="github"><i class="fa fa-github"></i><a href="http://github.com/sharu725" target="_blank">github.com/sharu725</a></li>
-                    {% endif %}
+  {% include language.html %}
+  {% include interests.html %}
 
+  {% if sidebar.about %}
+    {% include about.html %}
+  {% endif %}
 
-                </ul>
-            </div><!--//contact-container-->
-           {% include education.html %}
-           {% include language.html %}
-           {% include interests.html %}
-           <img class="qr-img" src="{{site.baseurl}}/assets/images/qrcode.png"/>
-           <img class="cert-img" src="{{site.baseurl}}/assets/images/AWS_Certified_Logo.png"/>
-           <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2017-11-30&ci=AWS00356080">
-             <img class="cert-img" src="{{site.baseurl}}/assets/images/AWS_Certified_SAA.png"/></a>
-           <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=3&t=c&d=2017-11-24&ci=AWS00356080">
-            <img class="cert-img" src="{{site.baseurl}}/assets/images/AWS_Certified_SOA.png"/></a>
-
-
-        </div><!--//sidebar-wrapper-->
+</div><!--//sidebar-wrapper-->

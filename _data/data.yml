@@ -1,0 +1,279 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Alberto Baselga Fernández de Piérola
+    tagline: Tech & Product Business Builder
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: alberto.baselga@gmail.com
+    phone: 
+    website: albertobaselga.com #do not add http://
+    linkedin: albertobaselga
+    xing: 
+    github: albertobaselga
+    telegram: albertobaselga # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Scuba Diving (with sharks)
+        link:
+        desc: keep calm
+
+      - item: Obstacles Races
+        link:
+        desc: muddy team work
+
+      - item: Skiing
+        link:
+        desc: speed
+
+      - item: Running
+        link:
+        desc: resilience
+
+      - item: Climbing
+        link:
+        desc: risks control
+
+career-profile:
+    title: Who am I?
+    summary: |
+      Being a data-driven, customer-centric, and DevSecOps-minded executive director, I have a clear orientation towards Technology Leadership, Product Management, and Business Development. I consider myself a very proactive person, always looking for new and innovative business opportunities that can solve real problems building technological products (that customers would love).
+
+      I also spend my time as a Business Angel investor in Technological startups, contributing with smart capital or as an Advisory Board Member. If you think I can help you or your project, do not hesitate to contact me!
+
+      Top Experiences: M&A Due Diligence, M&A Companies Integration, Digital Transformation Strategy, Product Discovery and Management, Platform Development, High Performing teams leadership, Business Strategy Development, People Coaching and Management, Engineering Management, Security and Compliance, Tech Strategy and Methodologies.
+
+      Tech Experience: DevOps, Cloud, Data Engineering, Data Science, Data Analytics, Microservices, Event-driven Architectures, REST APIs.
+
+      Domains Experience: Telco, Retail, Insurtech and Proptech.
+education:
+    - degree: Course in Strategy Execution
+      university: Harvard Business School
+      image: harvard.jpeg
+      time: 2022 - 2022
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Executive MBA
+      university: IESE Business School
+      image: iese.jpeg
+      time: 2018 - 2020
+      details: 
+    - degree: Degree in Computer Engineering
+      university: Universidad Carlos III de Madrid
+      image: uc3m.png
+      time: 2009 - 2010
+      details: 
+    - degree: Technical Engineer in Computer Management
+      university: Universidad Carlos III de Madrid
+      image: uc3m.png
+      time: 2006 - 2009
+      details: 
+experiences:
+    - role: Chief Information Officer (CTO Office)
+      time: Aug 2020 - Present
+      company: CoverWallet, an Aon Company
+      image: coverwallet.png
+      details: |
+        Top experiences:
+          - IT/Tech M&A integration responsible after the acquisition
+          - Platform Product strategy for growth
+          - Data-driven decision making culture
+          - Long-term strategy and budgeting
+          - DevEx, Security and Infra
+          - Engineering Leadership
+    - role: Product & Tech Advisor | Board Member
+      time: Nov 2020 - Present
+      company: CoverWallet, an Aon Company
+      image: thelab.jpeg
+      details: |
+        Helping to build the next-gen leader in Venture Capital (Venture Builder):
+          - Advisory Board Member
+          - Technology strategy
+          - Product development
+          - C-Level Coacher
+    - role: Head of Information Services
+      time: May 2018 - Jul 2020 
+      company: CoverWallet
+      image: coverwallet.png
+      details: |
+        I was accountable for CoverWallet’s business technical reliability, leading the four pillars of CoverWallet’s Information Services:
+          - Data Systems
+          - Cloud Infrastructure
+          - Security
+          - IT 
+
+        My main mission in CoverWallet was to enable business with the data products and cover the needs related to infrastructure in a cost-efficient, secure and reliable way. Therefore, I was leading five different teams that together handle the four IT components:
+          - Data Science
+          - Data Engineering
+          - Service Reliability Engineering (DevOps)
+          - Security
+          - Corporate IT
+    - role: Technical Account Manager
+      time: Sept 2017 - Mar 2018
+      company: Amazon Web Services
+      image: amazon.png
+      details: |
+        Technical Account Manager for Amazon Web Services (AWS), under the Enterprise Support Organisation, working with top AWS Enterprise customers helping them make the most out of AWS.
+          
+          - Top AWS enterprise customers primary contact and customer ambassador in AWS.
+          - Direct technical support on AWS products and intergrations or engagement facilitator with AWS subject mater experts (SMEs).
+          - Business plans alignment facilitator between customer's and AWS's roadmaps.
+          - Finanacial, Security, Performance and Architectural customer implementations reviews and audit.
+          - AWS products presentations, demos and workshops.
+          - Bridge between AWS Partners and AWS Customers.
+          - C-level engamenents facilitator on business and operational issues.
+    - role: Team Leader & SRE Principal Engineer
+      time: Jan 2017 - Sept 2017
+      company: Tuenti (Telefónica)
+      image: tuenti.png
+      details: |
+        Team Leader at Tuenti (Telefónica) managing the Continuous Engineering (DevOps) team under the Operations Area
+          - Multi-location (Spain & Israel) team composed of seven Senior DevOps Engineers.
+          - Implemented an Agile team way-of-working based on Scrum methodolgy.
+          - First contact for internal stakeholders relations to set expectations, internal selling and agree on business plans alignments.
+          - Focus on people development for individual and collective profesional growth.
+          - Team activity around a set of Telco B2C products, consisting on Mobile apps and Backend sw.
+          - Team responsability around the E2E deliverables life cycle, including QA, Deployment and Operation stages.
+    - role: Technical Leader
+      time: Jan 2015 - Jan 2017
+      company: Telefónica Research & Development
+      image: telefonica.png
+      details: |
+        Technical Leader for Telefonica CCDO (Future Comms Area) at the Service Engineering (SEEN) department.
+          - Influencing stakeholders and other area teams on DevOps implementation and best practices in all life cycles stages; coding, testing, deploying, operating and measuring.
+          - Technical reference and hands-on resource on complex operational issues or project blockers.
+          - Program management responsable of the department roadmap, handling several projects in paralel with different teams in the orgazation.
+          - Product Owner in some of the department internal projects in the DevOps field.
+    - role: Senior Service Reliability Engineer (SRE)
+      time: Dec 2013 - Jan 2015
+      company: Telefónica Research & Development
+      image: telefonica.png
+      details: |
+        Service Engineer for Telefonica CCDO (Future Comms Area) at the Service Engineering (SEEN) department.
+          - Reliability Engineer hat: Analyze service behavior, develop custom operational tools and lead technical task forces
+          - Technology Observatory Lead hat: Continuous researching on new engineering tools and methodologies to provide technical guidance to the Org.
+          - Project Manager hat: Lead development and deployment of internal projects and POCs.
+    - role: Technical Service Manager
+      time: Sep 2012 - Dec 2013
+      company: Telefónica Research & Development
+      image: telefonica.png
+      details: |
+        Technical Service Manager for Telefónica Digital - GO&D leading the services operation, covering product operation design and management:
+          - Apply technical criteria to make the right technical decisions and production changes
+          - Prepare technical strategies to improve service performance and operation.
+          - Define technical operational requirements for Development, Architecture and Service Delivery.
+          - Problem Management and Task Forces Coordination.
+          - Define and Monitor (technical) operational KPIs.
+          - Develop or define Operating Tools and automatic operational procedures.
+          - Technical Service knowledge with E2E vision, to help support teams on crisis.
+    - role: Engineering Consultant
+      time: Jul 2011 - Sep 2012
+      company: Amaris
+      image: 
+      details: |        
+        Consultant Engineer for Telefónica Digital under the L3 Support (G.O.D.) initiative, as Team Coordinator of several national and international projects.
+          - Linux systems administration.
+          - Problem management.
+          - Internal and external training courses.
+          - Project management.
+          - Staff Recruitment.
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
+
+footer: >
+    

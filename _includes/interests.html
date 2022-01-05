@@ -1,10 +1,22 @@
+{% assign interests = site.data.data.sidebar.interests %}
+{% if interests %}
 <div class="interests-container container-block">
-<h2 class="container-block-title">Hobbies</h2>
-<ul class="list-unstyled interests-list">
-<li>Scuba Diving (with sharks): <span class="lang-desc">keep calm</span></li>
-<li>Obstacles Races: <span class="lang-desc">muddy team work</span></li>
-<li>Skiing: <span class="lang-desc">speed</span></li>
-<li>Running: <span class="lang-desc">resilience</span></li>
-<li>Climbing: <span class="lang-desc">risks control</span></li>
-</ul>
+
+  <h2 class="container-block-title">
+    Interests
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {% for interest in interests %}
+
+      {% if interest.link %}
+      <li><a href="{{ interest.link }}">{{ interest.item }}</a> - <span class="lang-desc">{{ interest.desc }}</span></li>
+      {% else %}
+      <li>{{ interest.item }}</li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
 </div><!--//interests-->
+{% endif %}

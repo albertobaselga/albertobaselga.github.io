@@ -1,62 +1,31 @@
+{% assign skills = site.data.data.skills %}
+{% if skills %}
 <section class="skills-section section">
-                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
-                <div class="skillset">
 
-                <div class="item">
-                    <h3 class="level-title">Cloud Software Architecture</h3>
-                    <div class="level-bar">
-                        <div class="level-bar-inner" data-level="90%">
-                        </div>
-                    </div><!--//level-->
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ skills.title }}
+  </h2>
 
-                <div class="item">
-                    <h3 class="level-title">DevOps</h3>
-                    <div class="level-bar">
-                        <div class="level-bar-inner" data-level="90%">
-                        </div>
-                    </div><!--//level-bar-->
-                </div><!--//item-->
+  <div class="skillset">
 
-                <div class="item">
-                    <h3 class="level-title">Leadership</h3>
-                    <div class="level-bar">
-                        <div class="level-bar-inner" data-level="90%">
-                        </div>
-                    </div><!--//level-bar-->
-                </div><!--//item-->
+    {% for skill in skills.toolset %}
+    <div class="item">
 
-                <div class="item">
-                    <h3 class="level-title">Program Management</h3>
-                    <div class="level-bar">
-                        <div class="level-bar-inner" data-level="90%">
-                        </div>
-                    </div><!--//level-bar-->
-                </div><!--//item-->
+      <h3 class="level-title">{{ skill.name }}</h3>
 
-                <div class="item">
-                    <h3 class="level-title">Customer facing skills</h3>
-                    <div class="level-bar">
-                        <div class="level-bar-inner" data-level="90%">
-                        </div>
-                    </div><!--//level-bar-->
-                </div><!--//item-->
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        </div>
+      </div><!--//level-bar-->
 
-                <div class="item">
-                    <h3 class="level-title">Software Development</h3>
-                    <div class="level-bar">
-                        <div class="level-bar-inner" data-level="90%">
-                        </div>
-                    </div><!--//level-bar-->
-                </div><!--//item-->
+    </div><!--//item-->
+    {% endfor %}
 
-                <div class="item">
-                    <h3 class="level-title">IT Operations Management</h3>
-                    <div class="level-bar">
-                        <div class="level-bar-inner" data-level="90%">
-                        </div>
-                    </div><!--//level-bar-->
-                </div><!--//item-->
+  </div>
 
-                </div>
-                <img class="cloud-words" src="{{site.baseurl}}/assets/images/cloud_words.png"/>
-            </section><!--//skills-section-->
+</section><!--//skills-section-->
+{% endif %}
