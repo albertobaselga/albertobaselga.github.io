@@ -1,5 +1,5 @@
 
-title: Alberto Baselga Resume
+title: Alberto Baselga Site
 url: 'http://www.albertobaselga.com'
 baseurl: 'albertobaselga.github.io' #change it according to your repository name
 
@@ -14,7 +14,7 @@ style: styles-6
 
 #Profile information
 name: Alberto Baselga
-tagline: DevOps & Cloud Engineer
+tagline: Tech&Product based businesses builder
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
