@@ -56,7 +56,7 @@ sidebar:
         desc: risks control
 
 career-profile:
-    title: Who am I?
+    title: Something about me
     summary: |
       Being a data-driven, customer-centric, and DevSecOps-minded executive director, I have a clear orientation towards Technology Leadership, Product Management, and Business Development. I consider myself a very proactive person, always looking for new and innovative business opportunities that can solve real problems building technological products (that customers would love).
 
@@ -72,14 +72,7 @@ education:
       university: Harvard Business School
       image: harvard.jpeg
       time: 2022 - 2022
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+      details: 
     - degree: Executive MBA
       university: IESE Business School
       image: iese.jpeg
@@ -101,6 +94,7 @@ experiences:
       company: CoverWallet, an Aon Company
       image: coverwallet.png
       details: |
+
         Top experiences:
           - IT/Tech M&A integration responsible after the acquisition
           - Platform Product strategy for growth
@@ -113,6 +107,7 @@ experiences:
       company: CoverWallet, an Aon Company
       image: thelab.jpeg
       details: |
+
         Helping to build the next-gen leader in Venture Capital (Venture Builder):
           - Advisory Board Member
           - Technology strategy
@@ -123,6 +118,7 @@ experiences:
       company: CoverWallet
       image: coverwallet.png
       details: |
+
         I was accountable for CoverWallet’s business technical reliability, leading the four pillars of CoverWallet’s Information Services:
           - Data Systems
           - Cloud Infrastructure
@@ -140,6 +136,7 @@ experiences:
       company: Amazon Web Services
       image: amazon.png
       details: |
+
         Technical Account Manager for Amazon Web Services (AWS), under the Enterprise Support Organisation, working with top AWS Enterprise customers helping them make the most out of AWS.
           
           - Top AWS enterprise customers primary contact and customer ambassador in AWS.
@@ -154,6 +151,7 @@ experiences:
       company: Tuenti (Telefónica)
       image: tuenti.png
       details: |
+
         Team Leader at Tuenti (Telefónica) managing the Continuous Engineering (DevOps) team under the Operations Area
           - Multi-location (Spain & Israel) team composed of seven Senior DevOps Engineers.
           - Implemented an Agile team way-of-working based on Scrum methodolgy.
@@ -166,6 +164,7 @@ experiences:
       company: Telefónica Research & Development
       image: telefonica.png
       details: |
+
         Technical Leader for Telefonica CCDO (Future Comms Area) at the Service Engineering (SEEN) department.
           - Influencing stakeholders and other area teams on DevOps implementation and best practices in all life cycles stages; coding, testing, deploying, operating and measuring.
           - Technical reference and hands-on resource on complex operational issues or project blockers.
@@ -176,6 +175,7 @@ experiences:
       company: Telefónica Research & Development
       image: telefonica.png
       details: |
+
         Service Engineer for Telefonica CCDO (Future Comms Area) at the Service Engineering (SEEN) department.
           - Reliability Engineer hat: Analyze service behavior, develop custom operational tools and lead technical task forces
           - Technology Observatory Lead hat: Continuous researching on new engineering tools and methodologies to provide technical guidance to the Org.
@@ -185,6 +185,7 @@ experiences:
       company: Telefónica Research & Development
       image: telefonica.png
       details: |
+        
         Technical Service Manager for Telefónica Digital - GO&D leading the services operation, covering product operation design and management:
           - Apply technical criteria to make the right technical decisions and production changes
           - Prepare technical strategies to improve service performance and operation.
@@ -196,8 +197,9 @@ experiences:
     - role: Engineering Consultant
       time: Jul 2011 - Sep 2012
       company: Amaris
-      image: 
+      image: telefonica.png
       details: |        
+
         Consultant Engineer for Telefónica Digital under the L3 Support (G.O.D.) initiative, as Team Coordinator of several national and international projects.
           - Linux systems administration.
           - Problem management.

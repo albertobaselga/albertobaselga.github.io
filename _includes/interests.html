@@ -12,7 +12,7 @@
       {% if interest.link %}
       <li><a href="{{ interest.link }}">{{ interest.item }}</a> - <span class="lang-desc">{{ interest.desc }}</span></li>
       {% else %}
-      <li>{{ interest.item }}</li>
+      <li>{{ interest.item }} - <span class="lang-desc">{{ interest.desc }}</span></li>
       {% endif %}
 
     {% endfor %}
