@@ -58,7 +58,7 @@ sidebar:
 career-profile:
     title: Something about me
     summary: |
-      I'm a technology enthusiast with a product mindset and a business-oriented vision, having a clear orientation towards Technology Leadership, Product Management, and Business Development.
+      I'm a technology enthusiast with a product mindset and a business-oriented vision, having a clear orientation towards Technology Leadership, Product Management, Data Analytics and Business Development.
 
       I also spend my time as a Business Angel investor in Technological startups, contributing with smart capital or as an Advisory Board Member. If you think I can help you or your project, do not hesitate to contact me!
 
@@ -68,7 +68,7 @@ career-profile:
 
       Tech Technologies: DevOps, Cloud, Data Engineering, Data Science, Data Analytics, Microservices, Event-driven Architectures, REST APIs.
 
-      Domains Experience: Telco, Retail, Insurtech and Proptech.
+      Domains Experience: Education, Telco, Retail, Insurtech and Proptech.
 education:
     - degree: Course in Strategy Execution
       university: Harvard Business School
@@ -91,8 +91,29 @@ education:
       time: 2006 - 2009
       details: 
 experiences:
+    - role: Chief Information & Product Officer
+      time: May 2023 - Present
+      company: Northius
+      image: northius_logo.jpg
+      details: |
+
+        As Chief Information & Product Officer at Northius, my mission is to lead the digital transformation of the company, reporting directly to the CEO, aligning our technology strategy to foster growth and innovation across our global education brands.
+
+        Key Responsibilities:
+          * Leading the Product Management function to create and scale innovative products aligned with the company’s vision.
+          * Overseeing Technology, Engineering, and Development teams, ensuring high performance and alignment with business objectives.
+          * Driving the adoption and implementation of Data Analytics & Engineering to foster a data-driven culture for decision-making and operational efficiencies.
+          * Championing the integration of Artificial Intelligence (AI) across products and services to enhance user experiences and optimize internal processes.
+          * Ensuring the highest standards in Cybersecurity, safeguarding the organization’s infrastructure, data, and customer information.
+
+        Key Achievements:
+          * Developed a comprehensive tech and digital product strategy, contributing to significant business growth.
+          * Successfully implemented a Product Roadmap, creating a positive impact on EBITDA.
+          * Built and led a high-performing, autonomous, and talented digital team, driving innovation and efficiency across the organization.
+
+        My mission is to position Northius as a leader in the global education space by fully harnessing the power of technology to enable innovation, scalability, and continuous growth
     - role: Chief Information Officer (CTO Office)
-      time: Aug 2020 - Present
+      time: Aug 2020 - May 2023
       company: CoverWallet, an Aon Company
       image: coverwallet.png
       details: |
